@@ -2,13 +2,23 @@
   "name": "unpolyfill",
   "version": "1.0.0",
   "module": "src/index.js",
+  "unpkg": "dist/unpolyfill.js",
   "repository": "liufei/unpolyfill",
   "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "dependencies": {
     "core-js": "~3.0.1",
     "object-assign": "~4.1.1",
     "promise-polyfill": "~8.1.0",
     "raf": "~3.4.1",
     "unfetch": "~4.1.0"
+  },
+  "devDependencies": {
+    "rollup": "^1.11.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-terser": "^4.0.4"
   }
 }
