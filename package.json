@@ -1,0 +1,14 @@
+{
+  "name": "unpolyfill",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "liufei/unpolyfill",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "3.0.1",
+    "object-assign": "4.1.1",
+    "promise-polyfill": "8.1.0",
+    "raf": "3.4.1",
+    "unfetch": "4.1.0"
+  }
+}
