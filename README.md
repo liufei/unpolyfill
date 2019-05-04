@@ -49,7 +49,7 @@ _Partially adapted from react-app-polyfill [readme](https://github.com/facebook/
 
 1. `URLSearchParams`
 
-## Dependencies
+## Polyfill
 
 - [promise-polyfill](https://www.npmjs.com/package/promise-polyfill) for `Promise`
 - [unfetch](https://www.npmjs.com/package/unfetch) for `window.fetch`
