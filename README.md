@@ -36,8 +36,6 @@ Put this line before bundle.
 
 _Partially adapted from react-app-polyfill [readme](https://github.com/facebook/create-react-app/tree/master/packages/react-app-polyfill#supporting-internet-explorer)_
 
-These modules ensure the following language features are present:
-
 1. `Promise` (for `async` / `await` support)
 1. `window.fetch` (a Promise-based way to make web requests in the browser)
 1. `Object.assign` (a helper required for Object Spread, i.e. `{ ...a, ...b }`)
