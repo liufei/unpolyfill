@@ -8,7 +8,7 @@
 
 ## Usage
 
-### Module
+### Import as ES6 module
 
 Install `unpolyfill` as a dependency.
 
@@ -22,7 +22,7 @@ Import `unpolyfill` at the entry of application.
 import 'unpolyfill'
 ```
 
-### Script
+### Import via script
 
 Put this line before bundle.
 
@@ -31,6 +31,8 @@ Put this line before bundle.
 ```
 
 ## Features
+
+### Official
 
 _Partially adapted from react-app-polyfill [readme](https://github.com/facebook/create-react-app/tree/master/packages/react-app-polyfill#supporting-internet-explorer)_
 
@@ -45,7 +47,7 @@ These modules ensure the following language features are present:
 1. `Set`
 1. `requestAnimationFrame`
 
-**Bonus**:
+### Bonus
 
 1. `URLSearchParams`
 
