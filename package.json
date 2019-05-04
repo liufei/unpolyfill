@@ -1,7 +1,7 @@
 {
   "name": "unpolyfill",
   "version": "1.0.0",
-  "main": "index.js",
+  "module": "src/index.js",
   "repository": "liufei/unpolyfill",
   "license": "MIT",
   "dependencies": {
