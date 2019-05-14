@@ -1,6 +1,6 @@
 {
   "name": "unpolyfill",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "module": "src/index.js",
   "unpkg": "dist/unpolyfill.js",
   "repository": "liufei/unpolyfill",
