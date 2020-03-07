@@ -1,6 +1,6 @@
 # unpolyfill
 
-> Bare minimum react app polyfill in 9.94 kB
+> Bare minimum react app polyfill in 9.6 KB
 
 ## Usage
 

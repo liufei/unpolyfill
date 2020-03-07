@@ -1,7 +1,7 @@
 {
   "name": "unpolyfill",
   "version": "2.0.0-alpha.0",
-  "description": "Bare minimum react app polyfill in 9.94 kB",
+  "description": "Bare minimum react app polyfill in 9.6 KB",
   "unpkg": "dist/unpolyfill.js",
   "module": "src/index.js",
   "repository": "liufei/unpolyfill",
