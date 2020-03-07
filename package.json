@@ -1,25 +1,24 @@
 {
   "name": "unpolyfill",
-  "version": "1.0.2",
-  "module": "src/index.js",
+  "version": "2.0.0-alpha.0",
+  "description": "Bare minimum react app polyfill in 9.94 kB",
   "unpkg": "dist/unpolyfill.js",
+  "module": "src/index.js",
   "repository": "liufei/unpolyfill",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c"
   },
   "dependencies": {
-    "core-js": "~3.0.1",
-    "object-assign": "~4.1.1",
-    "promise-polyfill": "~8.1.0",
-    "raf": "~3.4.1",
-    "setasap": "^2.0.1",
-    "unfetch": "~4.1.0"
+    "core-js": "^3.6.4",
+    "promise-polyfill": "^8.1.3",
+    "raf": "^3.4.1",
+    "unfetch": "^4.1.0"
   },
   "devDependencies": {
-    "rollup": "^1.11.2",
-    "rollup-plugin-commonjs": "^9.3.4",
-    "rollup-plugin-node-resolve": "^4.2.3",
-    "rollup-plugin-terser": "^4.0.4"
+    "rollup": "^2.0.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.2.0"
   }
 }
